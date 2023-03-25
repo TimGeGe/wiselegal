@@ -1,0 +1,88 @@
+<nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="500" style="padding-top: 0 !important; padding-bottom: 0 !important; background-color: white !important;">
+    <div class="container">
+      <div class="dropdown button-dropdown">
+        <!-- <div ngbDropdown>
+          <a class="dropdown-toggle" ngbDropdownToggle>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+              <span class="button-bar"></span>
+          </a>
+           <div ngbDropdownMenu>
+             <a class="dropdown-header">Dropdown header</a>
+             <a class="dropdown-item" href="#">Action</a>
+             <a class="dropdown-item" href="#">Another action</a>
+             <a class="dropdown-item" href="#">Something else here</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">Separated link</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">One more separated link</a>
+           </div>
+         </div> -->
+      </div>
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" src>
+              <img class="fab" src="assets/img/wiselegal.png" style="width: 80%; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/index']">
+                      <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+                      <p>Download</p> -->
+                      <span class="navfont">{{'nav.home' | translate}}</span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/expertise']">
+                    <!-- <i class="now-ui-icons files_paper"></i>
+                    <p>Documentation</p> -->
+                    <span class="navfont">{{'nav.profile' | translate}}</span>
+                    <!-- {{'nav.profile' | translate}} -->
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/profile']">
+                  <!-- <i class="now-ui-icons files_paper"></i>
+                  <p>Documentation</p> -->
+                  <span class="navfont">{{'nav.contact' | translate}}</span>
+                  <!-- {{'nav.contact' | translate}} -->
+                </a>
+              </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link btn btn-neutral" href="https://www.creative-tim.com/product/now-ui-kit-pro-angular" target="_blank">
+                        <i class="now-ui-icons arrows-1_share-66"></i>
+                        <p>Upgrade to PRO</p>
+                    </a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <p class="d-lg-none d-xl-none">Twitter</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                    <p class="d-lg-none d-xl-none">Facebook</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a (click)="switchLanguage('en')" class="nav-link language-switcher__link language-switcher__link--active clickable-link">
+                    <img class="fab" src="assets/img/flags/GB.png"> English
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a (click)="switchLanguage('zh')" class="nav-link language-switcher__link clickable-link">
+                    <img class="fab" src="assets/img/flags/CN.png"> 中文
+                  </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

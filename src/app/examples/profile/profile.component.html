@@ -1,0 +1,107 @@
+<div class="wrapper" style="padding-top: 80px;">
+    <div class="page-header page-header-small" filter-color="green">
+        <div class="page-header-image rellax-header" data-rellax-speed="-8" style="background-image: url('assets/img/bg11.jpg') ;">
+        </div>
+        <div class="container">
+            <div class="content-center">
+                <h3 class="title">{{'contact.contact' | translate}}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 col-12 ms-md-auto text-lg-start mb-sm-0 mb-4">
+                  <div>
+                    <img src="assets/img/contact.png" class="service-icon">
+                    <h3 class="">{{'contact.contacts' | translate}}</h3>
+                    <ul class="flex-column ms-lg-n3 nav">
+                      <li class="nav-item">
+                        <a class="nav-link  opacity-8">
+                          {{'contact.phone' | translate}}: 09 391 6699
+                        </a>
+                      </li>
+          
+                      <li class="nav-item">
+                        <a class="nav-link  opacity-8">
+                          {{'contact.mobile' | translate}}: 022 619 6699
+                        </a>
+                      </li>
+          
+                      <li class="nav-item">
+                        <a class="nav-link  opacity-8" href="javascript:;" target="_blank">
+                          {{'contact.email' | translate}}: info@wiselegal.co.nz
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+          
+                <div class="col-lg-4 col-sm-4 col-12 text-lg-start mb-sm-0 mb-4">
+                  <div>
+                    <img src="assets/img/address.png" class="service-icon">
+                    <h3 class="">{{'contact.address' | translate}}</h3>
+                    <ul class="flex-column ms-lg-n3 nav">
+                      <li class="nav-item">
+                        <a class="nav-link  opacity-8">
+                            30 Riverland Roald Kumeu,
+                            <br/>
+                            Auckland 0892
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+          
+                <div class="col-lg-4 col-sm-4 col-12 text-lg-start mb-sm-0 mb-4">
+                  <div>
+                    <img src="assets/img/hours.png" class="service-icon">
+                    <h3 class="">{{'contact.hours' | translate}}</h3>
+                    <ul class="flex-column ms-lg-n3 nav">
+                      <li class="nav-item">
+                        <a class="nav-link  opacity-8">
+                          {{'contact.days' | translate}}
+                          9:00 am – 5:30 pm
+                          {{'contact.appointment' | translate}}
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="section section-contact-us text-center">
+        <div class="container">
+            <h2 class="title">{{'landing.cus' | translate}}</h2>
+            <p class="description">{{'landing.cusd' | translate}}</p>
+            <div class="row">
+                <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+                  <div class="input-group input-lg" [ngClass]="{'input-group-focus':focus===true}">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text">
+                          <i class="now-ui-icons users_circle-08"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="{{'landing.cusname' | translate}}" (focus)="focus=true" (blur)="focus=false">
+                  </div>
+                  <div class="input-group input-lg" [ngClass]="{'input-group-focus':focus1===true}">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text">
+                            <i class="now-ui-icons ui-1_email-85"></i>
+                      </span>
+                    </div>
+                      <input type="text" class="form-control" placeholder="{{'landing.cusemail' | translate}}" (focus)="focus1=true" (blur)="focus1=false">
+                  </div>
+                    <div class="textarea-container">
+                        <textarea class="form-control" name="name" rows="4" cols="80" placeholder="{{'landing.cusme' | translate}}"></textarea>
+                    </div>
+                    <div class="send-button">
+                        <a href="#pablo" class="btn btn-primary btn-round btn-block btn-lg">{{'landing.send' | translate}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
