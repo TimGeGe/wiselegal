@@ -76,20 +76,29 @@
         a.btn{
             margin-top: 35px;
         }
+
+        input::placeholder {
+            color: #121111; /* replace with desired color value */
+        }
+
+        textarea::placeholder {
+            color: #121111; /* replace with desired color value */
+        }
     }
 }
 
 // style for the profile page
-.profile-page{
+.profile-page {
 
-    .page-header{
+    .page-header {
         min-height: 550px;
     }
 
-    .profile-container{
+    .profile-container {
         color: #FFFFFF;
     }
-    .photo-container{
+
+    .photo-container {
         width: 123px;
         height: 123px;
         border-radius: 50%;
@@ -98,56 +107,88 @@
         box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
     }
 
-    .title{
+    .title {
         text-align: center;
         margin-top: 30px;
     }
 
     .description,
-    .category{
+    .category {
         text-align: center;
     }
 
-    h5.description{
+    h5.description {
         max-width: 700px;
         margin: 20px auto 75px;
     }
 
-    .nav-align-center{
+    .nav-align-center {
         margin-top: 30px;
     }
 
-    .content{
+    .content {
         max-width: 450px;
         margin: 0 auto;
 
-        .social-description{
+        .social-description {
             display: inline-block;
             max-width: 150px;
             width: 145px;
             text-align: center;
             margin: 15px 0 0px;
 
-            h2{
+            h2 {
                 margin-bottom: 15px;
             }
         }
     }
 
-    .button-container{
+    .button-container {
         text-align: center;
         margin-top: -106px;
     }
 
-    .collections{
-        img{
+    .collections {
+        img {
             margin-bottom: 30px;
         }
     }
 
-    .tab-content{
+    .tab-content {
         margin-top: 45px;
         padding-bottom: 50px;
+    }
+
+    .section-contact-us {
+        .title {
+            margin-bottom: 15px;
+        }
+
+        .description {
+            margin-bottom: 30px;
+        }
+
+        .input-group,
+        .send-button,
+        .textarea-container {
+            padding: 0 40px;
+        }
+
+        .textarea-container {
+            margin: 40px 0;
+        }
+
+        a.btn {
+            margin-top: 35px;
+        }
+
+        input::placeholder {
+            color: #121111; /* replace with desired color value */
+        }
+
+        textarea::placeholder {
+            color: #121111; /* replace with desired color value */
+        }
     }
 }
 
