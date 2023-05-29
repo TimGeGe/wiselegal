@@ -1,4 +1,5 @@
 {
+	"about.me": "关于我",
 	"contact.address": "地址",
 	"contact.appointment": "下班后和周末可应要求提供（必须预约）",
 	"contact.contact": "我们的联系方式",
@@ -26,9 +27,9 @@
 	"landing.cusme": "输入内容...",
 	"landing.cusname": "您的姓名",
 	"landing.description": "Athena 在不同国家拥有广泛的教育和专业经验。在定居新西兰之前，她曾在新加坡学习和生活，并获得了英国伦敦帝国理工学院的荣誉商业学位。在新西兰的私营和公共部门工作多年后，她在奥克兰大学获得了法律学位，专攻财产法以及信托和遗产法。 Athena 热衷于利用她在物权法方面的知识和经验帮助卖家和买家实现他们的目标。 Athena 能说流利的英语、普通话和广东话。",
-	"landing.goal": "专业、高效、沟通、\n具有成本效益和客户满意度。",
-	"landing.goal1": "我们明智的法律愿景",
-	"landing.lawyer": "律师",
+	"landing.goal": "我们的愿景\n\n专业\n高效\n有效沟通\n具有成本效益\n客户满意度。",
+	"landing.goal1": "",
+	"landing.lawyer": "首席律师",
 	"landing.lawyer1": "我们的律师",
 	"landing.name": "Athena",
 	"landing.plaw": "房产法律相关",
@@ -37,13 +38,14 @@
 	"landing.ptrand": "买卖财产；\n财产再融资；\n私人和商业借贷/贷款/抵押；\n信托、遗嘱与遗产、资产规划；",
 	"landing.send": "发送消息",
 	"landing.service": "关于我们的服务",
-	"landing.title": "选择我们",
-	"landing.title3": "专业, 高效, 灵活的服务",
+	"landing.title": "明智法律事务所",
+	"landing.title3": "房屋买卖交割 & 家庭基金",
 	"landing.trust": "家庭信托, 遗嘱及遗产管理 & 资产规划",
 	"landing.trustd": "家庭对我们所有人都很重要。通过建立家庭信托、立遗嘱和进行遗产规划，表达您对他们的关心和爱。",
 	"landing.who": "关于我们",
 	"landing.whodesc": "我们专注于房产相关法律，我们在遗产规划方面也经验丰富。\n\n我们倾听，我们说您的语言。",
 	"nav.contact": "联系我们",
 	"nav.home": "主页",
-	"nav.profile": "法律专长"
+	"nav.profile": "法律专长",
+	"nav.about": "关于我们"
 }

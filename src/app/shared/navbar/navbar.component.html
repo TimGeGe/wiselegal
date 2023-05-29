@@ -21,7 +21,7 @@
       </div>
         <div class="navbar-translate">
             <a class="navbar-brand" [routerLink]="['/index']" placement="bottom" src>
-              <img class="fab" src="assets/img/wiselegal.png" style="width: 80%; height: auto;">
+              <img class="fab" src="assets/img/wiselegal.png" style="width: 120%; height: auto;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar bar1"></span>
@@ -36,6 +36,13 @@
                       <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i>
                       <p>Download</p> -->
                       <span class="navfont">{{'nav.home' | translate}}</span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/about']">
+                      <!-- <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+                      <p>Download</p> -->
+                      <span class="navfont">{{'nav.about' | translate}}</span>
                   </a>
               </li>
               <li class="nav-item">
@@ -60,7 +67,7 @@
                         <p>Upgrade to PRO</p>
                     </a>
                 </li> -->
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/" target="_blank">
                     <i class="fab fa-twitter"></i>
                     <p class="d-lg-none d-xl-none">Twitter</p>
@@ -71,7 +78,7 @@
                     <i class="fab fa-facebook-square"></i>
                     <p class="d-lg-none d-xl-none">Facebook</p>
                   </a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a (click)="switchLanguage('en')" class="nav-link language-switcher__link language-switcher__link--active clickable-link">
                     <img class="fab" src="assets/img/flags/GB.png"> English

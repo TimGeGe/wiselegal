@@ -9,6 +9,7 @@ import { LoginComponent } from './examples/login/login.component';
 import { ProfileComponent } from './examples/profile/profile.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
 import { ExpertiseComponent } from './examples/expertise/expertise.component';
+import { AboutComponent } from './examples/about/about.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'index', pathMatch: 'full' },
@@ -17,7 +18,8 @@ const routes: Routes =[
     { path: 'landing',     component: LandingComponent },
     // { path: 'examples/login',       component: LoginComponent },
     { path: 'profile',     component: ProfileComponent },
-    { path: 'expertise',     component: ExpertiseComponent }
+    { path: 'expertise',     component: ExpertiseComponent },
+    { path: 'about',     component: AboutComponent }
 ];
 
 @NgModule({

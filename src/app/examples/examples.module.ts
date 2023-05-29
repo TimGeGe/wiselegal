@@ -15,6 +15,7 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 import { ExpertiseComponent } from './expertise/expertise.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
     imports: [
@@ -41,7 +42,8 @@ import { ExpertiseComponent } from './expertise/expertise.component';
         LoginComponent,
         ExamplesComponent,
         ProfileComponent,
-        ExpertiseComponent
+        ExpertiseComponent,
+        AboutComponent
     ]
 })
 export class ExamplesModule { }

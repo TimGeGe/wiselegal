@@ -1,4 +1,5 @@
 {
+	"about.me": "About me",
 	"contact.address": "Address",
 	"contact.appointment": "After hours and weekends available upon requests (appointment essential)​​",
 	"contact.contact": "Contact Us Today",
@@ -26,9 +27,9 @@
 	"landing.cusme": "Type a message...",
 	"landing.cusname": "Your name",
 	"landing.description": "Athena has an extensive range of educational and professional experience in various countries. Before she settled in New Zealand, she has studied and lived in Singapore and obtained a Honours Business Degree from Imperial College London in the UK. After years of experience in both the private and public sector in New Zealand, she obtained a Law Degree in University of Auckland and specialize in Property Law and Trust and Estate Law. Athena is passionate about assisting Vendors and Purchasers with her knowledge and experience in the Property Law to achieve their goals. Athena speaks fluent English, Mandarin and Cantonese.",
-	"landing.goal": "Professional, Efficient, Communication,\nCost- Effective & Client’s Satisfaction.",
-	"landing.goal1": "Our Wise Legal Vision",
-	"landing.lawyer": "Lawyer",
+	"landing.goal": "Our Vision\n\nProfessional\nEfficient\nExcellent Communication\nCost-Effective\nClient Focus/Satisfaction",
+	"landing.goal1": "",
+	"landing.lawyer": "Principal",
 	"landing.lawyer1": "Our Lawyer",
 	"landing.name": "Athena",
 	"landing.plaw": "Property Law",
@@ -37,13 +38,14 @@
 	"landing.ptrand": "Sale and Purchase of property;\nRefinancing of property;\nPrivate and business lending/loan/mortgage;\nTrusts, Wills & Estates, assets plannings；",
 	"landing.send": "Send Message",
 	"landing.service": "Our Services",
-	"landing.title": "Why choose Us?",
-	"landing.title3": "Expertise, Available, Flexible",
+	"landing.title": "WISE LEGAL",
+	"landing.title3": "Property Law & Family Trust",
 	"landing.trust": "Trust, Will & Estate Planning",
 	"landing.trustd": "Families are important to all of us. Show your care and love to them by establishing a family trust, making a will and doing estate planning.",
 	"landing.who": "Who we are?",
 	"landing.whodesc": "We specialised in Property Law, we are also experienced in Estate planning.\n\nWe listen and we speak your language.",
 	"nav.contact": "Contact Us",
 	"nav.home": "Home",
-	"nav.profile": "Expertise"
+	"nav.profile": "Expertise",
+	"nav.about": "About Us"
 }
