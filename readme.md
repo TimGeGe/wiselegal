@@ -11,7 +11,7 @@ Now will help you create a clean and simple website that is a perfect fit for to
 
 Create awesome, lifelike prototypes with InVision and Now so your users can experience and give feedback on your vision!
 
-To get the PSD and Sketch files, please visit Invision (https://www.invisionapp.com/now).
+To get the PSD and Sketch files, please visit Invision (https://www.invisionapp.com/now). 
 
 
 **Bootstrap 4 Support**
